@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/Services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/SocialLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/Tours.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backroads-app/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="code working in react">
+      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/PageLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backroads-app/src/components/PageLinks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backroads-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backroads-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backroads-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/backroads-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backroads-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/backroads-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backroads-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/backroads-app/src/components/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719010765329</updated>
-      <workItem from="1719010766467" duration="6885000" />
+      <workItem from="1719010766467" duration="7273000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -115,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719011125029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code working in react">
+      <option name="closed" value="true" />
+      <created>1719017834571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719017834571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="code working in react" />
+    <option name="LAST_COMMIT_MESSAGE" value="code working in react" />
   </component>
 </project>
