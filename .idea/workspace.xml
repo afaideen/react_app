@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/01-error-example.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/02-useState-basics.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/03-useState-array.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/04-useState-object.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/data.js" afterDir="false" />
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="react hook advanced">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backroads-app/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backroads-app/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +64,10 @@
   "keyToString": {
     "JavaScript Debug.index.html.executor": "Debug",
     "Node.js.App.jsx.executor": "Debug",
+    "React Native.my-react-app.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/mywork/react_app/my-react-app/src",
+    "last_opened_file_path": "D:/mywork/react_app/my-react-app/node_modules/react",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,12 +88,25 @@
       <recent name="D:\mywork\react_app\backroads-app\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.preview">
+  <component name="RunManager" selected="React Native.my-react-app">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react_app/my-react-app/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="App.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="App.jsx" working-dir="$PROJECT_DIR$/my-react-app/src">
       <method v="2" />
+    </configuration>
+    <configuration name="my-react-app" type="ReactNative" factoryName="React Native">
+      <working-dir value="D:\mywork\react_app\my-react-app" />
+      <node-interpreter value="project" />
+      <react-native value="$PROJECT_DIR$/my-react-app/node_modules/react" />
+      <platform value="ANDROID" />
+      <envs />
+      <only-packager />
+      <browser value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <debug-port value="5173" />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
     </configuration>
     <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/my-react-app/package.json" />
@@ -140,6 +144,7 @@
       <item itemvalue="npm.build (1)" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.preview" />
+      <item itemvalue="React Native.my-react-app" />
     </list>
     <recent_temporary>
       <list>
@@ -170,7 +175,8 @@
       <workItem from="1719059343848" duration="60000" />
       <workItem from="1719059732093" duration="2690000" />
       <workItem from="1719290695896" duration="3798000" />
-      <workItem from="1719364583898" duration="10126000" />
+      <workItem from="1719364583898" duration="10323000" />
+      <workItem from="1719382222008" duration="553000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -228,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719294314363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="react hook advanced">
+      <option name="closed" value="true" />
+      <created>1719378181180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719378181180</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,32 +267,29 @@
     <MESSAGE value="code footer updated" />
     <MESSAGE value="install vite framework" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="react hook advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="react hook advanced" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/App.jsx</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/App.jsx</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/App.jsx</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
