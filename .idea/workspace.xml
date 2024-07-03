@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="Enable debug configuration for react native app: my-react-app" />
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="Enable debug configuration for react native app: my-react-app">
+      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/01-code-example.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/02-useEffect-basics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/03-multiple-effects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/05-cleanup-function.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/App.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +74,7 @@
     &quot;React Native.my-react-app.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/mywork/react_app/my-react-app/node_modules/react&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mywork/react_app/my-react-app/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,6 +91,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\react_app\my-react-app\src\useEffect" />
       <recent name="D:\mywork\react_app\my-react-app\src" />
       <recent name="D:\mywork\react_app\backroads-app\src\components" />
     </key>
@@ -95,7 +104,7 @@
       <method v="2" />
     </configuration>
     <configuration name="my-react-app" type="ReactNative" factoryName="React Native">
-      <working-dir value="D:\mywork\react_app\my-react-app" />
+      <working-dir value="D:\mywork\react_app\my-react-app\src" />
       <node-interpreter value="project" />
       <react-native value="$PROJECT_DIR$/my-react-app/node_modules/react" />
       <platform value="ANDROID" />
@@ -176,6 +185,10 @@
       <workItem from="1719290695896" duration="3798000" />
       <workItem from="1719364583898" duration="10323000" />
       <workItem from="1719382222008" duration="553000" />
+      <workItem from="1719384862563" duration="805000" />
+      <workItem from="1720004095792" duration="1604000" />
+      <workItem from="1720005912763" duration="714000" />
+      <workItem from="1720006655204" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -241,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719378181180</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Enable debug configuration for react native app: my-react-app">
+      <option name="closed" value="true" />
+      <created>1719385165720</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719385165720</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,19 +288,33 @@
     <MESSAGE value="install vite framework" />
     <MESSAGE value="updated" />
     <MESSAGE value="react hook advanced" />
-    <option name="LAST_COMMIT_MESSAGE" value="react hook advanced" />
+    <MESSAGE value="Enable debug configuration for react native app: my-react-app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable debug configuration for react native app: my-react-app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx</url>
-          <option name="timeStamp" value="6" />
+          <line>10</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my-react-app/src/App.jsx</url>
-          <line>9</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx</url>
+          <line>3</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
