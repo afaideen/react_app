@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="Enable debug configuration for react native app: my-react-app">
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/01-code-example.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/02-useEffect-basics.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/03-multiple-effects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/useEffect/05-cleanup-function.jsx" afterDir="false" />
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="Added UseEffect examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/01-error-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/01-error-example.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/02-useState-basics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/02-useState-basics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/03-useState-array.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/03-useState-array.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/04-useState-object.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/04-useState-object.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/05-useState-gotcha.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,9 @@
       <recent name="D:\mywork\react_app\my-react-app\src\useEffect" />
       <recent name="D:\mywork\react_app\my-react-app\src" />
       <recent name="D:\mywork\react_app\backroads-app\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mywork\react_app\my-react-app\src\useState" />
     </key>
   </component>
   <component name="RunManager" selected="React Native.my-react-app">
@@ -188,7 +190,8 @@
       <workItem from="1719384862563" duration="805000" />
       <workItem from="1720004095792" duration="1604000" />
       <workItem from="1720005912763" duration="714000" />
-      <workItem from="1720006655204" duration="1341000" />
+      <workItem from="1720006655204" duration="3305000" />
+      <workItem from="1720075457430" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -262,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719385165720</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added UseEffect examples">
+      <option name="closed" value="true" />
+      <created>1720010574666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720010574666</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,32 +300,37 @@
     <MESSAGE value="updated" />
     <MESSAGE value="react hook advanced" />
     <MESSAGE value="Enable debug configuration for react native app: my-react-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enable debug configuration for react native app: my-react-app" />
+    <MESSAGE value="Added UseEffect examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added UseEffect examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx</url>
+          <url>file://$PROJECT_DIR$/my-react-app/src/useState/05-useState-gotcha.jsx</url>
           <line>10</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx</url>
+          <url>file://$PROJECT_DIR$/my-react-app/src/useState/05-useState-gotcha.jsx</url>
           <line>3</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-react-app/src/useEffect/04-fetch-data.jsx</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-react-app/src/useEffect/05-cleanup-function.jsx</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
