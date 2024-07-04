@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="Added UseEffect examples">
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="added grocerybud-app (vite)">
+      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/Items.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/SingleItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/01-error-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/01-error-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/02-useState-basics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/02-useState-basics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/03-useState-array.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/03-useState-array.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/04-useState-object.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/04-useState-object.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/05-useState-gotcha.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/useState/05-useState-gotcha.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grocerybud-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +70,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.App.jsx.executor&quot;: &quot;Debug&quot;,
-    &quot;React Native.my-react-app.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/mywork/react_app/my-react-app/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build (1).executor&quot;: &quot;Debug&quot;,
-    &quot;npm.build.executor&quot;: &quot;Debug&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
-    &quot;npm.preview.executor&quot;: &quot;Debug&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\JetBrains\\PyCharm2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Debug",
+    "Node.js.App.jsx.executor": "Debug",
+    "React Native.my-react-app.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/mywork/react_app/grocerybud-app/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build (1).executor": "Debug",
+    "npm.build.executor": "Debug",
+    "npm.dev.executor": "Debug",
+    "npm.preview.executor": "Debug",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\JetBrains\\PyCharm2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\react_app\grocerybud-app\src" />
       <recent name="D:\mywork\react_app\my-react-app\src\useEffect" />
       <recent name="D:\mywork\react_app\my-react-app\src" />
       <recent name="D:\mywork\react_app\backroads-app\src\components" />
@@ -191,7 +196,7 @@
       <workItem from="1720004095792" duration="1604000" />
       <workItem from="1720005912763" duration="714000" />
       <workItem from="1720006655204" duration="3305000" />
-      <workItem from="1720075457430" duration="821000" />
+      <workItem from="1720075457430" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -273,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720010574666</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated">
+      <option name="closed" value="true" />
+      <created>1720076333122</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720076333122</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added grocerybud-app (vite)">
+      <option name="closed" value="true" />
+      <created>1720076618169</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720076618169</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,11 +318,12 @@
     <MESSAGE value="code working in react" />
     <MESSAGE value="code footer updated" />
     <MESSAGE value="install vite framework" />
-    <MESSAGE value="updated" />
     <MESSAGE value="react hook advanced" />
     <MESSAGE value="Enable debug configuration for react native app: my-react-app" />
     <MESSAGE value="Added UseEffect examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UseEffect examples" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="added grocerybud-app (vite)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grocerybud-app (vite)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
