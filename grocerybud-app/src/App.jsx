@@ -1,11 +1,8 @@
-import { useState } from 'react'
-
-// import './App.css'
-import {toast, ToastContainer} from "react-toastify";
-import Form from "./Form.jsx";
-import Items from "./Items.jsx";
-import {nanoid} from "nanoid";
-
+import { useState } from 'react';
+import Form from './Form';
+import { nanoid } from 'nanoid';
+import Items from './Items';
+import { ToastContainer, toast } from 'react-toastify';
 
 const getLocalStorage = () => {
   let list = localStorage.getItem('list');
@@ -20,12 +17,11 @@ const getLocalStorage = () => {
 const setLocalStorage = (items) => {
   localStorage.setItem('list', JSON.stringify(items));
 };
-
 const defaultList = JSON.parse(localStorage.getItem('list') || '[]');
-
 const App = () => {
   const [items, setItems] = useState(defaultList);
-    const addItem = (itemName) => {
+
+  const addItem = (itemName) => {
     const newItem = {
       name: itemName,
       completed: false,
@@ -35,7 +31,7 @@ const App = () => {
     setItems(newItems);
     setLocalStorage(newItems);
     toast.success('item added to the list');
-    };
+  };
 
   const removeItem = (itemId) => {
     const newItems = items.filter((item) => item.id !== itemId);
@@ -62,7 +58,5 @@ const App = () => {
       <Items items={items} removeItem={removeItem} editItem={editItem} />
     </section>
   );
-
-}
-
-export default App
+};
+export default App;

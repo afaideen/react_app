@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="added grocerybud-app (vite)">
-      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/Items.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grocerybud-app/src/SingleItem.jsx" afterDir="false" />
+    <list default="true" id="ec257af3-b151-4282-bb73-7d675253ef53" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grocerybud-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grocerybud-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grocerybud-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grocerybud-app/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grocerybud-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grocerybud-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/grocerybud-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +97,7 @@
       <recent name="D:\mywork\react_app\my-react-app\src\useState" />
     </key>
   </component>
-  <component name="RunManager" selected="React Native.my-react-app">
+  <component name="RunManager" selected="npm.dev (1)">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react_app/my-react-app/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -133,8 +127,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/my-react-app/package.json" />
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/grocerybud-app/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -156,18 +150,18 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.App.jsx" />
+      <item itemvalue="npm.dev (1)" />
       <item itemvalue="npm.build (1)" />
-      <item itemvalue="npm.dev" />
       <item itemvalue="npm.preview" />
       <item itemvalue="React Native.my-react-app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.preview" />
         <item itemvalue="npm.build (1)" />
         <item itemvalue="Node.js.App.jsx" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +190,7 @@
       <workItem from="1720004095792" duration="1604000" />
       <workItem from="1720005912763" duration="714000" />
       <workItem from="1720006655204" duration="3305000" />
-      <workItem from="1720075457430" duration="3599000" />
+      <workItem from="1720075457430" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -294,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720076618169</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated">
+      <option name="closed" value="true" />
+      <created>1720079165201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720079165201</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,9 +323,9 @@
     <MESSAGE value="react hook advanced" />
     <MESSAGE value="Enable debug configuration for react native app: my-react-app" />
     <MESSAGE value="Added UseEffect examples" />
-    <MESSAGE value="updated" />
     <MESSAGE value="added grocerybud-app (vite)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grocerybud-app (vite)" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
